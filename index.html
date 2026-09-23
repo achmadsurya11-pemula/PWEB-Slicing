@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div>
+                <img src="assets/Logo.svg" alt="logo">
+            </div>
+            <div class="nav">
+                <nav>
+                    <a href="">About Me</a>
+                    <a href="">Skills</a>
+                    <a href="">Project</a>
+                    <a href="">Contact Me</a>
+                </nav>
+                <button class="resume-btn">Resume
+                    <img src="assets/download.svg" alt="icon_download">
+                </button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <!-- kiri -->
+                    <div class="hero-kiri">
+                        <h1>Hello I'am Achmad Surya Winarto</h1>
+                        <h4>An Information Technology Student.</h4>
+                        <p>
+                            Setiap pengalaman memiliki cerita. Mulai dari langkah pertama memasuki dunia perkuliahan, 
+                            beradaptasi dengan lingkungan baru, hingga belajar berbagai hal tentang teknologi informasi. 
+                            Semua proses ini menjadi bagian dari perjalanan yang ingin terus kuingat dan kembangkan.
+                        </p>
+                    </div>
+                    <!-- kanan -->
+                    <div>
+                        <img class="hero-img" src="assets/ilustration.svg" alt="ilustrasi">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <div class="skills-wrapper">
+                    <!-- atas -->
+                    <h1>My <span>Skills</span></h1>
+                    <div class="pembungkus">
+                        <!-- card bawah -->
+                        <div class="skills-card">
+                            <img src="assets/icon-postgresql.svg" alt="postgres">
+                            <p>Postgres</p>
+                        </div>
+                        <div class="skills-card">
+                            <img src="assets/icon-figma.svg" alt="figma">
+                            <p>Figma</p>
+                        </div>
+                        <div class="skills-card">
+                            <img src="assets/icon-py.svg" alt="py">
+                            <p>Python</p>
+                        </div>
+                        <div class="skills-card">
+                            <img src="assets/c-sharp.svg" alt="c#">
+                            <p>C#</p>
+                        </div>
+                        <div class="skills-card">
+                            <img src="assets/icon-html.svg" alt="html">
+                            <p>HTML</p>
+                        </div>
+                        <div class="skills-card">
+                            <img src="assets/icon-css.svg" alt="css">
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutme">
+            <div class="container">
+                <div class="aboutme-wrapper">
+                    <!-- foto -->
+                    <img src="assets/foto gwa.svg" alt="foto_me">
+                    <div class="about-kanan">
+                        <!-- teks kanan -->
+                        <h1>About <span>Me</span></h1>
+                        <p>Halo! Aku Surya, mahasiswa Teknologi Informasi yang sedang memulai perjalanan di dunia teknologi. 
+                            Website ini menjadi tempat untuk mendokumentasikan proses belajarku, 
+                            pengalaman organisasi, proyek, dan berbagai hal yang kutemui selama menjalani kehidupan perkuliahan.
+                            Bagiku, belajar bukan tentang siapa yang paling cepat,tetapi tentang kemauan untuk terus berkembang dan tidak takut mencoba hal baru.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="container">
+                <h1>My <span>Project</span></h1>
+                <div class="project-wrapper">
+                    <!-- kancatani -->
+                    <!-- image project kiri -->
+                    <img class="img-project" src="assets/kancatani.png" alt="kncatani">
+                    <div class="project-kanan">
+                        <!-- kanan -->
+                        <div class="kanan">      
+                            <h2>01</h2>
+                            <h2>Kanca-Tani</h2>
+                            <p>
+                                project OOP C# yang di integrasikan dengan Database juga materi PSQL tingkat lanjut dari materi Semester sebelumnya. Kami mengambil studikasus Koperasi Tani di Desa Krajan, untuk memudahkan dalam estimasi biaya kebutuhan pupuk berdasar luas lahan. 
+                                Jadi nanti output akan memunculkan haarga dari pupuk dengan jenis tanaman yang dipilih serta ada Waktu Pemupukan.
+                            </p>
+                        </div>
+                        <img src="assets/export.svg" alt="icon">
+                    </div>
+                </div>
+
+                <div class="project-wrapper">
+                    <!-- kancatani -->
+                    <!-- image project kiri -->
+                    <div class="project-kanan">
+                        <!-- kanan -->
+                        <div class="kanan">      
+                            <h2>02</h2>
+                            <h2>MOOI Donat</h2>
+                            <p>
+                                project akhir menggunakan Python berbasis Terminal yang di-integrasikan dengan DB Postgres. 
+                                Kelompok kami mengangkat UMKM sekkitar yakni MOOI DONAT, sebuah toko donat kentang disekitaran kampus dengan tujuan untuk memudahkan proses kerja pencatanan agar lebih terstruktur 
+                                dan juga proses dari pemesanan hingga pengiriman mudah terpantau oleh owner.
+                        </div>
+                        <img src="assets/export.svg" alt="icon">
+                    </div>
+                    <img class="img-project" src="assets/mooi.png" alt="kncatani">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="section">
+                <div class="contact-wrapper">
+                    <h2>Lest talk for<br>Something special</h2>
+                    <p>Always learning, always growing, and always looking for new opportunities to 
+                        turn ideas into meaningful experiences.</p>
+                    <h5>achsurya1109@gmail.com</h5>
+                    <button class="contact-btn">Get In Touch</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+                <div class="footer-wrapper">
+                    <div>
+                        <img src="assets/logo-footer.svg" alt="logo">
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/achmaad.sy/" >Instagram</a>
+                        <a href="https://github.com/achmadsurya11-pemula" >GitHub</a>
+                        <a href="" >WhatsApp</a>
+                    </div>
+                </div>
+        </footer>
+    </main>
+</body>
+</html>
